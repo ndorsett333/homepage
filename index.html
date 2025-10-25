@@ -10,12 +10,14 @@
 
 
     :root {
-      --dark-purple: #251933;
-      --grape: #7C32A0;
-      --black: #06040C;
-      --russian-violet: #2F1D55;
-      --delft-blue: #3A3E5F;
-      --white: #fff;
+        --black: #06040C;
+        --white: #fff;
+        --grape: #6b1fa3ff;
+        --rose: #f50777ff;
+        --dodger-blue: #0b8cffff;
+        --jade: #00a76cff;
+        --ochre: #dd7200ff;
+        --olive: #949700ff;
     }
 
     body {
@@ -25,6 +27,17 @@
     body h1 {
         font-family: 'IBM', monospace;
         color: var(--white);
+    }
+
+    .left-bar .menu a {
+        color: var(--grape);
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .left-bar .menu a:hover {
+        color: var(--delft-blue);
     }
 
   </style>
@@ -37,6 +50,8 @@
   <div class="left-bar">
     <div class="menu">
         <a href="#">[about]</a>
+        <a href="#">[portfolio]</a>
+        <a href="#">[contact]</a>
     </div>
   </div>
 
