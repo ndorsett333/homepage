@@ -25,6 +25,7 @@
         padding: 50px;
         color: var(--white);
         font-family: 'IBM', monospace;
+        font-size: 18px;
     }
 
     h1,
@@ -39,6 +40,10 @@
 
     h2 {
       color: var(--dodger-blue);
+    }
+
+    a {
+      color: var(--jade);
     }
 
     .main {
@@ -68,6 +73,10 @@
         background-color: var(--grape);
     }
 
+    .main-content {
+      width: 80%;
+    }
+
     .content-cards .content-card {
       display: none;
       flex-direction: column;
@@ -75,6 +84,10 @@
 
     .content-cards #about-card {
       display: flex;
+    }
+
+    ul li {
+      color: var(--rose);
     }
 
   </style>
@@ -95,7 +108,7 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="main-content">
       <div class="content-cards">
 
         <div id="about-card" class="content-card">
@@ -104,6 +117,20 @@
             <p>
               Web Developer specializing in front and back end development. Well versed in multiple programming languages including HTML, CSS, Javascript, and PHP. Managed large corporate sites as well as sites for small businesses.
             </p>
+            <br>
+            <strong>Here are some of the tools I utilize:</strong>
+            <ul>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>JQuery</li>
+              <li>React</li>
+              <li>WordPress</li>
+              <li>Javascript</li>
+              <li>WooCommerce</li>
+            </ul>
           </div>
         </div>
 
@@ -114,7 +141,13 @@
 
         <div id="contact-card" class="content-card">
           <h2>Contact</h2>
-          <div class="card-content"></div>
+          <div class="card-content">
+            <strong>Get in touch with me:</strong>
+            <ul>
+              <li><a href="mailto:nicolasdorsett@gmail.com">nicolasdorsett@gmail.com</a></li>
+              <li><a href="https://www.linkedin.com/in/nick-dorsett-740159bb/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
 
       </div>
